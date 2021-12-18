@@ -1,460 +1,418 @@
 /* ***************** */
   /* fonts import */
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
 
-/* note for css editing */
-/* classes of headings aare given by i ii iii iv ... */
-
-*{
-    text-decoration: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-
-
-
-div .search{
-    position: relative;
-    right: 478px;
-    top: 200px;
-    color: rgb(235, 235, 241);
-    padding: 14px 43px;
-    float: right
-}
-
-#search{
-    width: 437px;
-    height: 34px;
-    border-radius: 23px;
-    padding: 5px 14px;
-}
-
-
-
-
-.navbar ul li a{
-    text-decoration: none;
-    padding: 14px 31px;
-    cursor: pointer;
-    color: azure;
-   
-}
-.navbar li{
-    list-style: none;
-    float: left;
-    margin: 5px;
-    font-size: 18px;
-    font-family: cursive;
-    position: relative;
-    left: 422px;
-    top: 5px;
-    
-
-}
-
-.navbar{
-    position: relative;
-    bottom: 420px;
-    margin: auto;
-    width: 1500px;
-}
-
-/* Banner art */
-.banner{
-    
-    margin: auto;
-    height: 400px;
-    width: 1500px;
-    padding: 19px 9px;
-    
-}
-
-.orderNow{
-    background-color: white;
-    cursor: pointer;
-    border-radius: 14px;
-    float: right;
-    position: relative;
-    bottom: 94px;
-    left: -148px;
-    padding: 6px;
-    color: black;
-    width: 102px;
-    text-align: center;
-}
-
-.nav_hov:hover{
-    color: #ff6278;
-}
-
-.change:hover{
-    background-color: #6a6766;
-    border:  #6a6766 solid 2px;
-}
-/* ********************** */
-     /* Home section  */
-
-
-.homeFirst{
-    padding: 12px 0px 2px 10px;
-    margin: 0px;
-    background-color: rgb(240 241 237);
-    width: 1500px;
-    height: 464px;
-}
-
-h1 {
-    font-family: 'Lobster', 'Open Sans Condensed', sans-serif,cursive;
-    
-    color: #bd2907;
-    
-}
-
-.text1 {
-    width: 403px;
-    box-sizing: content-box;
-    position: relative;
-    left: 310px;
-    top: 41px;
-    
-}
-
-.para1{
-    border: rgb(240 241 237) solid 2px;
-    /* position: relative;
-    left: 310px;
-    top: 41px; */
-
-    
-    
-}
-.button{
-    display: inline-block;
-    position: relative;
-    /* left: 315px; */
-    top: 76px;
-}
-.btn{
-    background-color: #bd2907;
-    padding: 6px;
-    border: rgb(235 235 241) solid 2px;
-    border-radius: 14px;
-    cursor: pointer;
-    color: white;
-    font-size: 20px;
-}
-.btn:hover{
-    background-color: #dc4224;
-    border:  #dc4224 solid 2px;
-}
-
-.chowmin{
-    position: relative;
-    width: 717px;
-    left: 782px;
-    bottom: 267px;
-}
-/*  *************************************** */
-
-.homeSecond{
-    padding: 12px 0px 2px 10px;
-    margin: 0px;
-    background-color: rgb(34 37 38);
-    width: 1500px;
-    height: 464px;
-}
-
-.text2 {
-    width: 377px;
-    box-sizing: content-box;
-    position: relative;
-    left: 745px;
-    top: 66px;
-
-    
-}
-
-.ii{
-    color: #f19224;
-    padding: 0px 0px 12px;
-    
-}
-
-.para2{
-    border: rgb(34 37 38) solid 2px;
-    
-    color: azure;
-}
-
-.paneer{
-    position: relative;
-    width: 478px;
-    left: -10px;
-    bottom: 164px;
-    
-}
-
-.parallax {
-    /* The image used */
-    background-image: url(https://image.shutterstock.com/image-photo/blurred-chef-restaurant-260nw-288875882.jpg);
-    
-    /* Set a specific height */
-    min-height: 500px;
+  /* note for css editing */
+  /* classes of headings aare given by i ii iii iv ... */
   
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  *{
+      text-decoration: none;
+      padding: 0px;
+      margin: 0px;
   }
-
-  .parallaxText{
-      width: 450px;
-      font-size: 43px;
-      margin: auto ;
+  
+  
+  
+  
+  div .search{
       position: relative;
-      top: 120px;
-  }
-/* ****************************** */
-a{
-    text-decoration: none;
-}
-
-
-.cards{
-    border-radius: 59px;
-    float: left;
-    padding: 30px 30px;
-    width: 340px;
-    height: 250px;
-    transition: transform .1s ;
-    border: 0px;
-}
-    
-
-
-.cards:hover{
-    transform: scale(1.06);
-    /* box-shadow: 0 0 11px rgba(33,33,33,.2);  */
-}
-
-.list {
-    margin: auto;
-    width: 1200px;
-    
-}
-.recipe{
-    padding: 9px 9px;
-    width: 20px;
-    margin: auto;
-}
-h3{
-    padding: 4px 4px 4px 4px;
-}
-
-span{
-    padding: 8px 8px;
-}
-
-/* *************************** */
-
-/* .comment-box {
-    top: 50%;
-    position: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-} */
-.comment-box{
-    width: 1458px;
-    height: 157px;
-    padding: 0 20px;
-    /* margin-bottom: 15px; */
-    border-radius: 5px;
-    border: 1px solid #868686;
-    float: left;
-}
-.comment-box h2{
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-.comment-box input:focus{
-    border: 1px solid #000;
-}
-
-
-.comment-box textarea{
-    width: 100%;
-    height: 150%;
-    padding: 15px 20px;
-    border-radius: 5px;
-    border: 1px solid #86b0b6;
-
-}
-.comment-box textarea:focus{
-    
-    padding: 10px 30px;
-    background: #86b0b6;
-    font-size: 18px;
-    border-radius: 5px;
-    color: #fff;
-    display: inline-flex;
-}
-.comment-box button:hover{
-    background-color: #718a8e;
-}
-
-textarea{
-    display: block;
-    box-sizing: border-box;
-}
-
-
-
-.foot{
-    width: 1521px;
-    height: 520px;
-    background-color: cadetblue;
-    float: left;
-    margin: 0px;
-}
-.feedback{
-    position: relative;
-    left: 576px;
-    width: 430px;
-}
-.contacts{
-    position: relative;
-    left: 592px;
-    top: 126px;
-    width: 371px;
-    font-size: 18px
-}
-
-
-
-
-
-.container {
-    position: relative;
-    bottom: 405px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float: left;
-}
-
-  
-  .content {
-    width: 360px;
-    height: 40px;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
-    border-radius: 60px;
-    overflow: hidden;
+      right: 478px;
+      top: 200px;
+      color: rgb(235, 235, 241);
+      padding: 14px 43px;
+      float: right
   }
   
-  .subscription {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  #search{
+      width: 437px;
+      height: 34px;
+      border-radius: 23px;
+      padding: 5px 14px;
   }
   
-  .subscription .add-email{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    outline: none;
-    padding: 0 20px;
-  }
   
-  .subscription .submit-email {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: calc(100% - 2px);
-    width: 100px;
-    border: none;
-    border-radius: 60px;
-    outline: none;
-    margin: 1px;
-    padding: 0 20px;
-    cursor: pointer;
-    background: #4ABEBB;
-    color: #FFFFFF;
-    transition: width .35s ease-in-out,  .35s ease-in-out;
-   
-  }
   
-  .subscription.done .submit-email {
-    width: calc(100% - 2px);
-    background: #C0E02E;
-  }
   
-  .subscription .submit-email .before-submit,
-  .subscription .submit-email .after-submit {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    line-height: 38px;
-    transition: visibility .35s ease-in-out,
-    opacity .35s ease-in-out;
-      padding: 3px;
+  .navbar ul li a{
+      text-decoration: none;
+      padding: 14px 31px;
+      cursor: pointer;
+      color: azure;
+     
   }
-  
-  .subscription.done .submit-email .before-submit,
-  .subscription:not(.done) .submit-email .after-submit {
-    visibility: hidden;
-    opacity: 0;
-  }
-  
-  /* .subscription .submit-email .after-submit {
-    transition-delay: .35s;
-  } */
-  
-  /* .subscription:not(.done) .submit-email .before-submit,
-  .subscription.done .submit-email .after-submit {
-    visibility: visible;
-    opacity: 1;
-  } */
-
-  .logo{
-    display: inline-flex;
-    float: left;
-    padding: 3px 10px;
-    position: relative;
-    left: 619px;
-    bottom: 143px;
-
-  }
-
-  /* .testimonials{
-      margin: 50px auto;
-  }
-  .testimonials h1{
-      text-align: center;
-      font-weight: bold;
-      color: black;
-      padding-bottom: 10px;
-      text-transform: uppercase;
+  .navbar li{
+      list-style: none;
       float: left;
+      margin: 5px;
+      font-size: 18px;
+      font-family: cursive;
+      position: relative;
+      left: 422px;
+      top: 5px;
+      
+  
+  }
+  
+  .navbar{
+      position: relative;
+      bottom: 420px;
+      margin: auto;
+      width: 1500px;
+  }
+  
+  /* Banner art */
+  .banner{
+      
+      margin: auto;
+      height: 400px;
+      width: 1500px;
+      padding: 19px 9px;
+      
+  }
+  
+  .orderNow{
+      background-color: white;
+      cursor: pointer;
+      border-radius: 14px;
+      float: right;
+      position: relative;
+      bottom: 94px;
+      left: -148px;
+      padding: 6px;
+      color: black;
+      width: 102px;
+      text-align: center;
+  }
+  
+  .nav_hov:hover{
+      color: #ff6278;
+  }
+  
+  .change:hover{
+      background-color: #6a6766;
+      border:  #6a6766 solid 2px;
+  }
+  /* ********************** */
+       /* Home section  */
+  
+  
+  .homeFirst{
+      padding: 12px 0px 2px 10px;
+      margin: 0px;
+      background-color: rgb(240 241 237);
+      width: 1500px;
+      height: 464px;
+  }
+  
+  h1 {
+      font-family: 'Lobster', 'Open Sans Condensed', sans-serif,cursive;
+      
+      color: #bd2907;
+      
+  }
+  
+  .text1 {
+      width: 403px;
+      box-sizing: content-box;
+      position: relative;
+      left: 310px;
+      top: 41px;
+      
+  }
+  
+  .para1{
+      border: rgb(240 241 237) solid 2px;
+      
+  
+      
+      
+  }
+  .button{
+      display: inline-block;
+      position: relative;
+      top: 76px;
+  }
+  .btn{
+      background-color: #bd2907;
+      padding: 6px;
+      border: rgb(235 235 241) solid 2px;
+      border-radius: 14px;
+      cursor: pointer;
+      color: white;
+      font-size: 20px;
+  }
+  .btn:hover{
+      background-color: #dc4224;
+      border:  #dc4224 solid 2px;
+  }
+  
+  .chowmin{
+      position: relative;
+      width: 717px;
+      left: 782px;
+      bottom: 267px;
+  }
+  /*  *************************************** */
+  
+  .homeSecond{
+      padding: 12px 0px 2px 10px;
+      margin: 0px;
+      background-color: rgb(34 37 38);
+      width: 1500px;
+      height: 464px;
+  }
+  
+  .text2 {
+      width: 377px;
+      box-sizing: content-box;
+      position: relative;
+      left: 745px;
+      top: 66px;
+  
+      
+  }
+  
+  .ii{
+      color: #f19224;
+      padding: 0px 0px 12px;
+      
+  }
+  
+  .para2{
+      border: rgb(34 37 38) solid 2px;
+      color: azure;
+  }
+  
+  .paneer{
+      position: relative;
+      width: 478px;
+      left: -10px;
+      bottom: 164px;
+      
+  }
+  
+  .parallax {
+      background-image: url(https://image.shutterstock.com/image-photo/blurred-chef-restaurant-260nw-288875882.jpg);
+      min-height: 500px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
-    .testimonials h1::after
-    {
-        content: '';
-        background: #ff9800;
-        display: block;
-        height: 3px;
-        width: 170px;
-        margin: 20px auto 5px;
-    } */
-
+  
+    .parallaxText{
+        width: 450px;
+        font-size: 43px;
+        margin: auto ;
+        position: relative;
+        top: 120px;
+    }
+  /* ****************************** */
+  a{
+      text-decoration: none;
+  }
+  
+  
+  .cards{
+      border-radius: 59px;
+      float: left;
+      padding: 30px 30px;
+      width: 340px;
+      height: 250px;
+      transition: transform .1s ;
+      border: 0px;
+  }
+      
+  
+  
+  .cards:hover{
+      transform: scale(1.06);
+      
+  }
+  
+  .list {
+      margin: auto;
+      width: 1200px;
+      
+  }
+  .recipe{
+      padding: 9px 9px;
+      width: 20px;
+      margin: auto;
+      font-size: 23px;
+  }
+  h3{
+      padding: 4px 4px 4px 4px;
+  }
+  
+  span{
+      padding: 8px 8px;
+  }
+  
+  /* *************************** */
+  
+  .comment-box{
+      width: 1458px;
+      height: 157px;
+      padding: 0 20px;
+      border-radius: 5px;
+      border: 1px solid #868686;
+      float: left;
+  }
+  .comment-box h2{
+      font-size: 20px;
+      margin-bottom: 15px;
+  }
+  .comment-box input:focus{
+      border: 1px solid #000;
+  }
+  
+  
+  .comment-box textarea{
+      width: 100%;
+      height: 150%;
+      padding: 15px 20px;
+      border-radius: 5px;
+      border: 1px solid #86b0b6;
+  
+  }
+  .comment-box textarea:focus{
+      
+      padding: 10px 30px;
+      background: #86b0b6;
+      font-size: 18px;
+      border-radius: 5px;
+      color: #fff;
+      display: inline-flex;
+  }
+  .comment-box button:hover{
+      background-color: #718a8e;
+  }
+  
+  textarea{
+      display: block;
+      box-sizing: border-box;
+  }
+  
+  
+  
+  .foot{
+      width: 1521px;
+      height: 520px;
+      background-color: cadetblue;
+      float: left;
+      margin: 0px;
+  }
+  .feedback{
+      position: relative;
+      left: 576px;
+      width: 430px;
+  }
+  .contacts{
+      position: relative;
+      left: 592px;
+      top: 126px;
+      width: 371px;
+      font-size: 18px
+  }
+  
+  
+  
+  
+  
+  .container {
+      position: relative;
+      bottom: 405px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      float: left;
+  }
+  
     
+    .content {
+      width: 360px;
+      height: 40px;
+      box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+      border-radius: 60px;
+      overflow: hidden;
+    }
+    
+    .subscription {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .subscription .add-email{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+      padding: 0 20px;
+    }
+    
+    .subscription .submit-email {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: calc(100% - 2px);
+      width: 100px;
+      border: none;
+      border-radius: 60px;
+      outline: none;
+      margin: 1px;
+      padding: 0 20px;
+      cursor: pointer;
+      background: #4ABEBB;
+      color: #FFFFFF;
+      transition: width .35s ease-in-out,  .35s ease-in-out;
+     
+    }
+    
+    .subscription.done .submit-email {
+      width: calc(100% - 2px);
+      background: #C0E02E;
+    }
+    
+    .subscription .submit-email .before-submit,
+    .subscription .submit-email .after-submit {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      line-height: 38px;
+      transition: visibility .35s ease-in-out,
+      opacity .35s ease-in-out;
+        padding: 3px;
+    }
+    
+    .subscription.done .submit-email .before-submit,
+    .subscription:not(.done) .submit-email .after-submit {
+      visibility: hidden;
+      opacity: 0;
+    }
+    
+  
+  
+    .logo{
+      display: inline-flex;
+      float: left;
+      padding: 3px 10px;
+      position: relative;
+      left: 619px;
+      bottom: 143px;
+  
+    }
+  
+   
+  
+      
